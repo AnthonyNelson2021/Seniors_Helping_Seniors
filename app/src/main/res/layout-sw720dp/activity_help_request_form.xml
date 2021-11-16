@@ -82,7 +82,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Request Help"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -99,7 +99,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Offer Help"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
@@ -116,7 +116,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Profile"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
@@ -133,7 +133,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Settings"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
@@ -181,7 +181,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="447dp" />
+        app:layout_constraintGuide_percent=".465" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
@@ -264,7 +264,7 @@
                 android:layout_alignParentTop="true"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toStartOf="@+id/guideline21"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/namedisplay" />
@@ -278,7 +278,7 @@
                 android:layout_alignParentTop="true"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toStartOf="@+id/guideline21"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/addressdisplay" />
@@ -291,7 +291,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Name:"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fieldtitle" />
@@ -304,7 +304,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Address:"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fieldname" />
@@ -317,7 +317,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Phone:"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fielduseraddress" />
@@ -331,7 +331,7 @@
                 android:layout_alignParentTop="true"
                 android:ems="10"
                 android:inputType="phone"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/phonedisplay" />
 
@@ -343,7 +343,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Title:"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -357,7 +357,7 @@
                 android:layout_alignParentTop="true"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toStartOf="@+id/guideline21"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/titledisplay" />
@@ -370,7 +370,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:text="Description"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fieldselectdate" />
@@ -383,7 +383,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
                 android:text="Date:"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fieldphone" />
@@ -408,7 +408,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:text="Select Date"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/fielddate" />
 
@@ -420,7 +420,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentBottom="true"
                 android:text="Time"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="@+id/guideline22"
                 app:layout_constraintTop_toBottomOf="@+id/fieldphone" />
@@ -433,7 +433,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentBottom="true"
                 android:text="Submit"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/fielddescription" />
@@ -447,7 +447,7 @@
                 android:layout_alignParentBottom="true"
                 android:onClick="selectTime"
                 android:text="Select Time"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintStart_toStartOf="@+id/guideline22"
                 app:layout_constraintTop_toBottomOf="@+id/displaytime" />
 
@@ -473,7 +473,7 @@
                 android:ems="10"
                 android:inputType="textLongMessage|textMultiLine"
                 android:maxLines="5"
-                android:textSize="48sp"
+                android:textSize="34sp"
                 app:layout_constraintEnd_toStartOf="@+id/guideline21"
                 app:layout_constraintStart_toStartOf="@+id/guideline20"
                 app:layout_constraintTop_toBottomOf="@+id/descriptiondisplay" />

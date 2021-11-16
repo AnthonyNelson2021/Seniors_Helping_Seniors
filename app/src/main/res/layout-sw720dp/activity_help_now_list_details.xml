@@ -71,7 +71,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Request Help"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline6"
@@ -88,7 +88,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Offer Help"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
@@ -105,7 +105,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Profile"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
@@ -122,7 +122,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="center"
         android:text="Settings"
-        android:textSize="34sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintDimensionRatio="1.5:1"
         app:layout_constraintEnd_toStartOf="@+id/guideline12"
@@ -202,26 +202,28 @@
 
     <TextView
         android:id="@+id/fieldusername"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:text="name"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/fielduserphone"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textname" />
 
     <TextView
         android:id="@+id/fieldemail"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
         android:text="email"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textemail" />
 
@@ -247,7 +249,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Name:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/fieldjobtitle" />
@@ -260,7 +262,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Email:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/fieldusername" />
@@ -273,7 +275,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Address:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/fieldemail" />
@@ -286,7 +288,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Phone Number:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/fieldjobtitle" />
@@ -299,7 +301,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Job Title:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/jobdetails" />
@@ -312,7 +314,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="Job Description:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/fieldjobdate" />
@@ -325,7 +327,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:text="Date:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/fielduseraddress" />
@@ -338,56 +340,60 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:text="Time:"
-        android:textSize="42sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toTopOf="@+id/textjobdate" />
 
     <TextView
         android:id="@+id/fielduseraddress"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="address"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textaddress" />
 
     <TextView
         android:id="@+id/fielduserphone"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="phone"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/textphone" />
 
     <TextView
         android:id="@+id/fieldjobtitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="title"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textjobtitle" />
 
     <TextView
         android:id="@+id/fieldjobdescription"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:text="description"
-        android:textSize="42sp"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline12"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textjobdescription" />
 
@@ -399,7 +405,7 @@
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:text="date"
-        android:textSize="42sp"
+        android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textjobdate" />
 
@@ -411,7 +417,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:text="time"
-        android:textSize="42sp"
+        android:textSize="32sp"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
         app:layout_constraintTop_toBottomOf="@+id/texttime" />
 
