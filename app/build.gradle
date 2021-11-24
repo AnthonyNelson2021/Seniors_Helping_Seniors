@@ -28,6 +28,7 @@ android {
 
     buildTypes {
         release {
+            getIsDefault().set(true)
             minifyEnabled false
             crunchPngs false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
