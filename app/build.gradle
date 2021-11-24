@@ -5,7 +5,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\Project Keystore\\SHSKey.jks')
+            storeFile file('SHSKey.jks')
             storePassword 'android'
             keyAlias 'key0'
             keyPassword 'android'
